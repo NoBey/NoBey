@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "74820392cd1ed4179241"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "6f7aff083f10ee32db1f"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -590,7 +590,7 @@
 	var html = '';
 
 	var nobey = '<h1>' + '<a>NoBey</a>' + '</h1>';
-	var link = '<div class="link">' + '<span><img id="img50" src="../src/img/zhihu.png" /></span>' + '<span><img src="../src/img/github.png" /></span>' + '<span><img src="../src/img/weibo.png" /></span>' + '<span><img src="../src/img/blog.png" /></span>' + '<span><img src="../src/img/at.png" /></span>' + '<span><img src="../src/img/resume.png" /></span>' + '</div>';
+	var link = '<div class="link">' + '<span><a href="https://www.zhihu.com/people/NoBey/activities"><img id="img50" src="../src/img/zhihu.png" /></a></span>' + '<span><a href="https://github.com/NoBey"><img src="../src/img/github.png" /></span></a>' + '<span><a href="http://weibo.com/nobeycn"><img src="../src/img/weibo.png" /></span></a>' + '<span><a href="http://blog.nobey.cn"><img src="../src/img/blog.png" /></span></a>' + '<span><a href="#"><img src="../src/img/at.png" /></span></a>' + '<span><a href="#"><img src="../src/img/resume.png" /></span></a>' + '</div>';
 
 	html += nobey;
 	html += link;
