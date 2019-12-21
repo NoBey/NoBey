@@ -486,7 +486,7 @@ var app = new Vue({
       this.gitment = null
       this.gitment = new Gitment({
         // id: '页面 ID', // 可选。默认为 location.href
-        owner: 'auven',
+        owner: 'nobey',
         repo: 'blog-comment',
         title: pageTitle,
         oauth: {
@@ -502,8 +502,8 @@ var app = new Vue({
         clientID: _config['client_id'],
         clientSecret: _config['client_secret'],
         repo: 'blog-comment',
-        owner: 'auven',
-        admin: ['auven'],
+        owner: 'nobey',
+        admin: ['nobey'],
         id: MD5(pageTitle),
         title: pageTitle,
         distractionFreeMode: false
